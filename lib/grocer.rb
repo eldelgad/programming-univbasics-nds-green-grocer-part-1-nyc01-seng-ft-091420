@@ -37,13 +37,15 @@ end
 
 ####### PSEUDOCODE #######
 
+  
+# REMEMBER: This returns a new Array that represents the cart. Don't merely
+# change `cart` (i.e. mutate) it. It's easier to return a new thing.
+
+
 # method consolidate_cart takes in the argument cart (AoHoItems)
   # return a new_cart (AoH) with each item containing a quantity(possible index manipualtion)
 
 def consolidate_cart(cart)
-  
-  # REMEMBER: This returns a new Array that represents the cart. Don't merely
-  # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
 new_cart = []
 counter = 0
