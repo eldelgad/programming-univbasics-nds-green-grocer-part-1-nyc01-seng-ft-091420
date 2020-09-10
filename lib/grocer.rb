@@ -13,8 +13,9 @@ def find_item_by_name_in_collection(name, collection)
   counter = 1
   while counter < collection.length
     return collection[counter] if collection[counter][:item] == name
-  end
   counter += 1
+  end
+  
 end
   
   # collection.each do |hash|
