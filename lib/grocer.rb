@@ -29,7 +29,6 @@ counter = 0
       }
       
       new_cart << new_cart_item
-  
     end
     counter += 1
   end
